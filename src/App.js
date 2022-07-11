@@ -46,6 +46,8 @@ function newTodo(value) {
   return { id: Date.now(), name: value, complete: false }
 }
 
+//hello
+
 function App() {
   const [state, dispatch] = useReducer(reducer, { count: 0 });
   const [todos, dispatch2] = useReducer(reducer2, []);
